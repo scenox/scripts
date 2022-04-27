@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 import json
-import requests
-import yaml # pip install pyyaml
+import requests # python3 -m pip install requests
+import yaml # python3 -m pip install pyyaml
 
 repo='https://<some-helm-chart-repo>/index.yaml'
 teams_webhook_url='https://somecompany.webhook.office.com/...'
